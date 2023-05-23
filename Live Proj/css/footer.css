@@ -1,0 +1,17 @@
+footer
+{
+    height: 100%;
+    width: 1440px;
+    border-radius: 0px;
+    background: #4A607A;
+}
+.footer--contacts
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer--nav--block
+{
+    display: flex;
+    flex-direction: row;
+}
