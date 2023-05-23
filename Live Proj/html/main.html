@@ -13,18 +13,32 @@
     <title>prolife</title>
 </head>
 <body>
-    <header class="header">
-            <img class="logo-img" src="/img/logos 1.svg">
-            <button onclick="location='/sign.html'">Главная</button>
-            <button onclick="location='/sign.html'">О нас</button>
-            <button onclick="location='/sign.html'"><span>Помощь</span><img src="/img/arrow.svg">
-            <button onclick="location='/sign.html'"><span>Санкт-Петербург</span><img src="/img/arrow.svg"></button>
-        </button>
-            <p>+7 495 96713 01</p>
-            <button onclick="location='/sign.html'">Личный кабинет<img src="/img/account_circle.svg" width="30px" height="30px"></button>
-    </header>
     <main>
-        
+    <div class="register-form">
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="login">
+                
+              <label for="FIO"><b>ФИО*</b></label>
+              <input type="text" placeholder="Иванов Иван Иванович" name="FIO" required>
+          
+              <label for="phone"><b>Номер телефона*</b></label>
+              <input type="text" placeholder="+7 (495) 453 33 41" name="phone" required>
+          
+              <label for="Email"><b>Email*</b></label>
+              <input type="text" placeholder="delolive@mail.ru" name="Email" required>
+
+              <label for="region"><b>Регион*</b></label>
+              <input type="text" placeholder="Санкт-Питербург" name="region" required>
+          
+          
+              <div class="clearfix">
+                <button type="button" class="clearbtn">Очистить</button>
+                <button type="submit" class="nextbtn">Далее</button>
+              </div>
+            </div>
+          </form>
+
+       </div>
     </main>
 
     <footer>
